@@ -1,0 +1,2520 @@
+{
+  "version": "2026.05.04-initial-online-db",
+  "saved_at": "2026-05-04T00:00:00",
+  "gpus": {
+    "RTX 5090": {
+      "factor": 5.8,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 5080": {
+      "factor": 4.6,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 5070 Ti": {
+      "factor": 3.45,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 5070": {
+      "factor": 2.9,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4090": {
+      "factor": 4.75,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4080 Super": {
+      "factor": 3.75,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4080": {
+      "factor": 3.55,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4070 Ti Super": {
+      "factor": 3.05,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4070 Ti": {
+      "factor": 2.8,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4070 Super": {
+      "factor": 2.45,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4070": {
+      "factor": 2.05,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4060 Ti 16GB": {
+      "factor": 1.52,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4060 Ti 8GB": {
+      "factor": 1.47,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4060": {
+      "factor": 1.18,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3090 Ti": {
+      "factor": 2.95,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3090": {
+      "factor": 2.75,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3080 Ti": {
+      "factor": 2.55,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3080 12GB": {
+      "factor": 2.4,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3080 10GB": {
+      "factor": 2.3,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3070 Ti": {
+      "factor": 1.72,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3070": {
+      "factor": 1.55,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3060 Ti": {
+      "factor": 1.36,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3060 12GB": {
+      "factor": 1.0,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3060 8GB": {
+      "factor": 0.92,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3050 8GB": {
+      "factor": 0.66,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 3050 6GB": {
+      "factor": 0.54,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 2080 Ti": {
+      "factor": 1.55,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 2080 Super": {
+      "factor": 1.28,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 2070 Super": {
+      "factor": 1.0,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 2070": {
+      "factor": 0.9,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 2060 Super": {
+      "factor": 0.86,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 2060 6GB": {
+      "factor": 0.75,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "GTX 1660 Ti": {
+      "factor": 0.67,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1660 Super": {
+      "factor": 0.64,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1660": {
+      "factor": 0.58,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1080 Ti": {
+      "factor": 1.05,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1080": {
+      "factor": 0.86,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1070 Ti": {
+      "factor": 0.78,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1070": {
+      "factor": 0.68,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1060 6GB": {
+      "factor": 0.5,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1050 Ti": {
+      "factor": 0.32,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1050 2GB": {
+      "factor": 0.25,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 9070 XT": {
+      "factor": 3.05,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 9070": {
+      "factor": 2.7,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7900 XTX": {
+      "factor": 3.25,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7900 XT": {
+      "factor": 2.85,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7900 GRE": {
+      "factor": 2.35,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7800 XT": {
+      "factor": 2.2,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7700 XT": {
+      "factor": 1.9,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7600 XT": {
+      "factor": 1.24,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 7600": {
+      "factor": 1.15,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6950 XT": {
+      "factor": 2.55,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6900 XT": {
+      "factor": 2.35,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6800 XT": {
+      "factor": 2.1,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6800": {
+      "factor": 1.78,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6750 XT": {
+      "factor": 1.6,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6700 XT": {
+      "factor": 1.5,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6650 XT": {
+      "factor": 1.12,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6600 XT": {
+      "factor": 1.06,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6600": {
+      "factor": 0.9,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6500 XT": {
+      "factor": 0.48,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 5700 XT": {
+      "factor": 0.98,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 5600 XT": {
+      "factor": 0.72,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 580 8GB": {
+      "factor": 0.43,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 570 4GB": {
+      "factor": 0.36,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "Intel Arc B580": {
+      "factor": 1.3,
+      "vendor": "Intel",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "Intel Arc A770 16GB": {
+      "factor": 1.18,
+      "vendor": "Intel",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "Intel Arc A750": {
+      "factor": 1.02,
+      "vendor": "Intel",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "Intel Arc A580": {
+      "factor": 0.8,
+      "vendor": "Intel",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "GT 1030 GDDR5": {
+      "factor": 0.12,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": false,
+      "rt": false
+    },
+    "GTX 750 Ti": {
+      "factor": 0.15,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": false
+    },
+    "GTX 950": {
+      "factor": 0.22,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": false,
+      "rt": false
+    },
+    "GTX 960 4GB": {
+      "factor": 0.24,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "GTX 970": {
+      "factor": 0.34,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "GTX 980": {
+      "factor": 0.44,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 980 Ti": {
+      "factor": 0.48,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "GTX 1650": {
+      "factor": 0.41,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "GTX 1650 Super": {
+      "factor": 0.5,
+      "vendor": "NVIDIA",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RTX 2060 12GB": {
+      "factor": 0.8,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RTX 3060 Laptop GPU": {
+      "factor": 0.82,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4050 Laptop GPU": {
+      "factor": 0.9,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4060 Laptop GPU": {
+      "factor": 1.08,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4070 Laptop GPU": {
+      "factor": 1.45,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4080 Laptop GPU": {
+      "factor": 2.35,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RTX 4090 Laptop GPU": {
+      "factor": 2.75,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "dlss_fg": true,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 550 4GB": {
+      "factor": 0.12,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 560 4GB": {
+      "factor": 0.2,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 470 4GB": {
+      "factor": 0.34,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 480 8GB": {
+      "factor": 0.4,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 590 8GB": {
+      "factor": 0.47,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX Vega 56": {
+      "factor": 0.62,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX Vega 64": {
+      "factor": 0.7,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 5500 XT 8GB": {
+      "factor": 0.58,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": false
+    },
+    "RX 6400": {
+      "factor": 0.36,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 6700 10GB": {
+      "factor": 1.3,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "RX 6750 GRE 12GB": {
+      "factor": 1.46,
+      "vendor": "AMD",
+      "rtx": false,
+      "dlss_fg": false,
+      "fsr_fg": true,
+      "rt": true
+    },
+    "Intel Arc A380": {
+      "factor": 0.42,
+      "vendor": "Intel",
+      "rtx": false,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RTX 3060 Laptop": {
+      "factor": 0.78,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RTX 3070 Laptop": {
+      "factor": 1.18,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RTX 4050 Laptop": {
+      "factor": 0.82,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "rt": true,
+      "dlss_fg": true,
+      "fsr_fg": true
+    },
+    "RTX 4060 Laptop": {
+      "factor": 1.05,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "rt": true,
+      "dlss_fg": true,
+      "fsr_fg": true
+    },
+    "RTX 4070 Laptop": {
+      "factor": 1.32,
+      "vendor": "NVIDIA",
+      "rtx": true,
+      "rt": true,
+      "dlss_fg": true,
+      "fsr_fg": true
+    },
+    "RX 5700": {
+      "factor": 0.86,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": false,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 6700": {
+      "factor": 1.26,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 7600M XT": {
+      "factor": 1.05,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "RX 7800M XT": {
+      "factor": 1.75,
+      "vendor": "AMD",
+      "rtx": false,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    },
+    "Intel Arc B570": {
+      "factor": 1.05,
+      "vendor": "Intel",
+      "rtx": false,
+      "rt": true,
+      "dlss_fg": false,
+      "fsr_fg": true
+    }
+  },
+  "cpus": {
+    "Ryzen 7 9800X3D": 1.42,
+    "Ryzen 9 9950X": 1.38,
+    "Ryzen 9 9900X": 1.35,
+    "Ryzen 7 9700X": 1.32,
+    "Ryzen 5 9600X": 1.28,
+    "Ryzen 9 7950X3D": 1.4,
+    "Ryzen 9 7950X": 1.34,
+    "Ryzen 9 7900X": 1.3,
+    "Ryzen 7 7800X3D": 1.4,
+    "Ryzen 7 7700X": 1.25,
+    "Ryzen 7 7700": 1.22,
+    "Ryzen 5 7600X": 1.23,
+    "Ryzen 5 7600": 1.2,
+    "Ryzen 7 5800X3D": 1.22,
+    "Ryzen 9 5950X": 1.16,
+    "Ryzen 9 5900X": 1.14,
+    "Ryzen 7 5800X": 1.09,
+    "Ryzen 7 5700X3D": 1.16,
+    "Ryzen 7 5700X": 1.06,
+    "Ryzen 5 5600X": 1.03,
+    "Ryzen 5 5600": 1.0,
+    "Ryzen 5 5500": 0.94,
+    "Ryzen 7 3800X": 0.98,
+    "Ryzen 7 3700X": 0.96,
+    "Ryzen 5 3600X": 0.94,
+    "Ryzen 5 3600": 0.92,
+    "Ryzen 5 2600X": 0.8,
+    "Ryzen 5 2600": 0.78,
+    "Core Ultra 9 285K": 1.4,
+    "Core Ultra 7 265K": 1.34,
+    "Core Ultra 5 245K": 1.25,
+    "i9-14900K": 1.42,
+    "i7-14700K": 1.36,
+    "i5-14600K": 1.28,
+    "i5-14400F": 1.15,
+    "i9-13900K": 1.39,
+    "i7-13700K": 1.32,
+    "i5-13600K": 1.25,
+    "i5-13400F": 1.14,
+    "i3-13100F": 0.98,
+    "i9-12900K": 1.28,
+    "i7-12700K": 1.2,
+    "i5-12600K": 1.15,
+    "i5-12400F": 1.06,
+    "i3-12100F": 0.92,
+    "i9-11900K": 1.08,
+    "i7-11700K": 1.04,
+    "i5-11600K": 1.0,
+    "i5-11400F": 0.95,
+    "i9-10900K": 1.06,
+    "i7-10700K": 1.03,
+    "i5-10600K": 0.98,
+    "i5-10400F": 0.9,
+    "i9-9900K": 1.02,
+    "i7-9700K": 0.99,
+    "i5-9600K": 0.9,
+    "i5-9400F": 0.84,
+    "i7-8700K": 0.96,
+    "i5-8400": 0.82,
+    "i7-7700K": 0.82,
+    "i5-7600K": 0.7,
+    "i7-4790K": 0.6,
+    "i5-6500": 0.56,
+    "i5-7400": 0.64,
+    "i5-7500": 0.65,
+    "i7-6700K": 0.76,
+    "i7-7700": 0.78,
+    "i3-10100F": 0.78,
+    "i5-10400": 0.89,
+    "i3-12100": 0.91,
+    "i5-12400": 1.06,
+    "i5-12600KF": 1.16,
+    "i5-13400": 1.13,
+    "i5-13500": 1.18,
+    "i7-13700F": 1.28,
+    "i9-13900KF": 1.39,
+    "i5-14500": 1.2,
+    "i7-14700F": 1.32,
+    "i9-14900KF": 1.42,
+    "Ryzen 3 3100": 0.76,
+    "Ryzen 3 3300X": 0.82,
+    "Ryzen 5 4500": 0.84,
+    "Ryzen 5 4600G": 0.86,
+    "Ryzen 5 5500GT": 0.93,
+    "Ryzen 5 5600G": 0.96,
+    "Ryzen 7 5700G": 1.0,
+    "Ryzen 7 5700": 1.03,
+    "Ryzen 5 7500F": 1.18,
+    "Ryzen 5 8400F": 1.15,
+    "Ryzen 7 8700F": 1.22,
+    "i3-10300": 0.82,
+    "i3-14100F": 1.02,
+    "i5-8500": 0.8,
+    "i5-9400": 0.83,
+    "i5-10500": 0.92,
+    "i5-11400": 0.95,
+    "i7-8700": 0.92,
+    "i7-10700": 1.0,
+    "i7-12700": 1.18,
+    "i7-13700": 1.3,
+    "i7-14700": 1.34,
+    "i9-12900": 1.25,
+    "Ryzen 3 1200": 0.48,
+    "Ryzen 5 1600": 0.66,
+    "Ryzen 7 2700X": 0.84
+  },
+  "ram_factors": {
+    "4GB": 0.72,
+    "6GB": 0.8,
+    "8GB": 0.88,
+    "12GB": 0.95,
+    "16GB": 1.0,
+    "24GB": 1.01,
+    "32GB": 1.02,
+    "48GB": 1.025,
+    "64GB": 1.03,
+    "96GB": 1.035,
+    "128GB": 1.04,
+    "256GB": 1.045
+  },
+  "resolution_factors": {
+    "1080p": 1.0,
+    "1440p / 2K": 0.68,
+    "2160p / 4K": 0.38
+  },
+  "games": {
+    "A Plague Tale: Requiem": {
+      "base": {
+        "High": 50,
+        "Low": 82,
+        "Medium": 64,
+        "Ultra": 38
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 10,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Alan Wake 2": {
+      "base": {
+        "High": 34,
+        "Low": 54,
+        "Medium": 43,
+        "Ultra": 26
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 12,
+      "xess": true,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Apex Legends": {
+      "base": {
+        "High": 145,
+        "Low": 210,
+        "Medium": 175,
+        "Ultra": 118
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "ARK: Survival Ascended": {
+      "base": {
+        "High": 28,
+        "Low": 48,
+        "Medium": 36,
+        "Ultra": 20
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 8,
+      "xess": true,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Assassin's Creed Mirage": {
+      "base": {
+        "High": 78,
+        "Low": 118,
+        "Medium": 95,
+        "Ultra": 62
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Assassin's Creed Shadows": {
+      "base": {
+        "High": 37,
+        "Low": 62,
+        "Medium": 48,
+        "Ultra": 28
+      },
+      "confidence": "Low",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 7,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Low",
+      "variance": "High",
+      "last_updated": "2026-05-04"
+    },
+    "Avatar: Frontiers of Pandora": {
+      "base": {
+        "High": 37,
+        "Low": 62,
+        "Medium": 48,
+        "Ultra": 29
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 10,
+      "xess": true,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Baldur's Gate 3": {
+      "base": {
+        "High": 102,
+        "Low": 150,
+        "Medium": 125,
+        "Ultra": 82
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Battlefield 2042": {
+      "base": {
+        "High": 84,
+        "Low": 132,
+        "Medium": 105,
+        "Ultra": 65
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 15,
+      "xess": false,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Black Myth: Wukong": {
+      "base": {
+        "High": 42,
+        "Low": 72,
+        "Medium": 55,
+        "Ultra": 31
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 10,
+      "xess": true,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Call of Duty: Black Ops 6": {
+      "base": {
+        "High": 86,
+        "Low": 135,
+        "Medium": 108,
+        "Ultra": 66
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 11,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Call of Duty: Warzone": {
+      "base": {
+        "High": 78,
+        "Low": 118,
+        "Medium": 96,
+        "Ultra": 62
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Cities: Skylines II": {
+      "base": {
+        "Low": 48,
+        "Medium": 35,
+        "High": 27,
+        "Ultra": 20
+      },
+      "confidence": "Medium",
+      "samples": 9,
+      "fsr": true,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Counter-Strike 2": {
+      "base": {
+        "High": 175,
+        "Low": 245,
+        "Medium": 210,
+        "Ultra": 145
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 20,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Crimson Desert": {
+      "base": {
+        "High": 35,
+        "Low": 60,
+        "Medium": 46,
+        "Ultra": 27
+      },
+      "confidence": "Low",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 4,
+      "xess": true,
+      "rt": true,
+      "source_quality": "Low",
+      "variance": "High",
+      "last_updated": "2026-05-04"
+    },
+    "Cyberpunk 2077": {
+      "base": {
+        "High": 65,
+        "Low": 100,
+        "Medium": 82,
+        "Ultra": 50
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 22,
+      "xess": true,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Dead Space Remake": {
+      "base": {
+        "High": 75,
+        "Low": 118,
+        "Medium": 94,
+        "Ultra": 58
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Delta Force": {
+      "base": {
+        "High": 105,
+        "Low": 155,
+        "Medium": 128,
+        "Ultra": 82
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 6,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Diablo IV": {
+      "base": {
+        "High": 118,
+        "Low": 170,
+        "Medium": 145,
+        "Ultra": 92
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 15,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Dragon Age: The Veilguard": {
+      "base": {
+        "High": 50,
+        "Low": 82,
+        "Medium": 64,
+        "Ultra": 38
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 8,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Dragon's Dogma 2": {
+      "base": {
+        "High": 44,
+        "Low": 68,
+        "Medium": 55,
+        "Ultra": 35
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Dying Light 2": {
+      "base": {
+        "High": 72,
+        "Low": 116,
+        "Medium": 92,
+        "Ultra": 55
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 14,
+      "xess": false,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "EA Sports FC 25": {
+      "base": {
+        "High": 135,
+        "Low": 190,
+        "Medium": 165,
+        "Ultra": 112
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 10,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Elden Ring": {
+      "base": {
+        "High": 60,
+        "Low": 60,
+        "Medium": 60,
+        "Ultra": 60
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Escape from Tarkov": {
+      "base": {
+        "High": 66,
+        "Low": 105,
+        "Medium": 82,
+        "Ultra": 52
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "F1 24": {
+      "base": {
+        "Low": 150,
+        "Medium": 118,
+        "High": 92,
+        "Ultra": 70
+      },
+      "confidence": "High",
+      "samples": 13,
+      "fsr": true,
+      "xess": false,
+      "dlss": true,
+      "fg": true,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Far Cry 6": {
+      "base": {
+        "High": 98,
+        "Low": 145,
+        "Medium": 120,
+        "Ultra": 78
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 16,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Final Fantasy VII Rebirth": {
+      "base": {
+        "High": 46,
+        "Low": 78,
+        "Medium": 60,
+        "Ultra": 34
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 6,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Final Fantasy XVI": {
+      "base": {
+        "Low": 62,
+        "Medium": 48,
+        "High": 37,
+        "Ultra": 28
+      },
+      "confidence": "Medium",
+      "samples": 8,
+      "fsr": true,
+      "xess": true,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Fortnite": {
+      "base": {
+        "High": 95,
+        "Low": 220,
+        "Medium": 155,
+        "Ultra": 55
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 22,
+      "xess": false,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Forza Horizon 5": {
+      "base": {
+        "High": 100,
+        "Low": 145,
+        "Medium": 120,
+        "Ultra": 82
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 20,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Forza Motorsport": {
+      "base": {
+        "High": 58,
+        "Low": 95,
+        "Medium": 74,
+        "Ultra": 44
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 10,
+      "xess": false,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Ghost of Tsushima Director's Cut": {
+      "base": {
+        "Low": 102,
+        "Medium": 80,
+        "High": 62,
+        "Ultra": 47
+      },
+      "confidence": "High",
+      "samples": 15,
+      "fsr": true,
+      "xess": true,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "God of War": {
+      "base": {
+        "High": 86,
+        "Low": 130,
+        "Medium": 106,
+        "Ultra": 66
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 17,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "God of War Ragnarok": {
+      "base": {
+        "High": 78,
+        "Low": 118,
+        "Medium": 96,
+        "Ultra": 60
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 10,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Grand Theft Auto V": {
+      "base": {
+        "High": 122,
+        "Low": 180,
+        "Medium": 150,
+        "Ultra": 92
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 22,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Gray Zone Warfare": {
+      "base": {
+        "Low": 45,
+        "Medium": 34,
+        "High": 26,
+        "Ultra": 19
+      },
+      "confidence": "Low",
+      "samples": 6,
+      "fsr": true,
+      "xess": false,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "Low",
+      "variance": "High",
+      "last_updated": "2026-05-04"
+    },
+    "Halo Infinite": {
+      "base": {
+        "High": 94,
+        "Low": 145,
+        "Medium": 118,
+        "Ultra": 72
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 15,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Helldivers 2": {
+      "base": {
+        "High": 58,
+        "Low": 92,
+        "Medium": 74,
+        "Ultra": 45
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 14,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Hitman World of Assassination": {
+      "base": {
+        "High": 105,
+        "Low": 160,
+        "Medium": 130,
+        "Ultra": 82
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 16,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Hogwarts Legacy": {
+      "base": {
+        "High": 55,
+        "Low": 88,
+        "Medium": 70,
+        "Ultra": 42
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 18,
+      "xess": false,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Horizon Forbidden West": {
+      "base": {
+        "High": 66,
+        "Low": 105,
+        "Medium": 84,
+        "Ultra": 50
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 12,
+      "xess": true,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Indiana Jones and the Great Circle": {
+      "base": {
+        "High": 42,
+        "Low": 74,
+        "Medium": 56,
+        "Ultra": 31
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 7,
+      "xess": true,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Kingdom Come: Deliverance II": {
+      "base": {
+        "High": 49,
+        "Low": 82,
+        "Medium": 64,
+        "Ultra": 36
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 6,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Lies of P": {
+      "base": {
+        "High": 102,
+        "Low": 150,
+        "Medium": 125,
+        "Ultra": 80
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Marvel Rivals": {
+      "base": {
+        "High": 98,
+        "Low": 155,
+        "Medium": 125,
+        "Ultra": 74
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 8,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Marvel's Spider-Man 2": {
+      "base": {
+        "High": 65,
+        "Low": 105,
+        "Medium": 84,
+        "Ultra": 48
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 6,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Marvel's Spider-Man Remastered": {
+      "base": {
+        "High": 75,
+        "Low": 118,
+        "Medium": 95,
+        "Ultra": 58
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 16,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Metro Exodus Enhanced Edition": {
+      "base": {
+        "High": 46,
+        "Low": 78,
+        "Medium": 60,
+        "Ultra": 34
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Microsoft Flight Simulator 2024": {
+      "base": {
+        "Low": 62,
+        "Medium": 45,
+        "High": 34,
+        "Ultra": 25
+      },
+      "confidence": "Low",
+      "samples": 7,
+      "fsr": true,
+      "xess": false,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "Low",
+      "variance": "High",
+      "last_updated": "2026-05-04"
+    },
+    "Monster Hunter Wilds": {
+      "base": {
+        "High": 37,
+        "Low": 64,
+        "Medium": 49,
+        "Ultra": 28
+      },
+      "confidence": "Low",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 6,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Low",
+      "variance": "High",
+      "last_updated": "2026-05-04"
+    },
+    "Mortal Kombat 1": {
+      "base": {
+        "Low": 110,
+        "Medium": 86,
+        "High": 67,
+        "Ultra": 52
+      },
+      "confidence": "High",
+      "samples": 10,
+      "fsr": true,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Need for Speed Unbound": {
+      "base": {
+        "High": 78,
+        "Low": 122,
+        "Medium": 98,
+        "Ultra": 60
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "No Man's Sky": {
+      "base": {
+        "Low": 142,
+        "Medium": 112,
+        "High": 88,
+        "Ultra": 68
+      },
+      "confidence": "High",
+      "samples": 14,
+      "fsr": true,
+      "xess": false,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Once Human": {
+      "base": {
+        "High": 70,
+        "Low": 112,
+        "Medium": 90,
+        "Ultra": 54
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 7,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Palworld": {
+      "base": {
+        "High": 78,
+        "Low": 122,
+        "Medium": 98,
+        "Ultra": 60
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Path of Exile 2": {
+      "base": {
+        "High": 68,
+        "Low": 110,
+        "Medium": 88,
+        "Ultra": 52
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 6,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Payday 3": {
+      "base": {
+        "High": 80,
+        "Low": 125,
+        "Medium": 100,
+        "Ultra": 62
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 9,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "PUBG: Battlegrounds": {
+      "base": {
+        "High": 112,
+        "Low": 185,
+        "Medium": 145,
+        "Ultra": 88
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Ratchet & Clank: Rift Apart": {
+      "base": {
+        "High": 60,
+        "Low": 96,
+        "Medium": 76,
+        "Ultra": 46
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 13,
+      "xess": true,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Ready or Not": {
+      "base": {
+        "High": 78,
+        "Low": 120,
+        "Medium": 98,
+        "Ultra": 60
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 8,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Red Dead Redemption 2": {
+      "base": {
+        "High": 68,
+        "Low": 105,
+        "Medium": 86,
+        "Ultra": 50
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 22,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Remnant II": {
+      "base": {
+        "High": 48,
+        "Low": 82,
+        "Medium": 64,
+        "Ultra": 36
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 12,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Resident Evil 4 Remake": {
+      "base": {
+        "Low": 98,
+        "Medium": 76,
+        "High": 58,
+        "Ultra": 44
+      },
+      "confidence": "High",
+      "samples": 15,
+      "fsr": true,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Returnal": {
+      "base": {
+        "High": 56,
+        "Low": 92,
+        "Medium": 72,
+        "Ultra": 42
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 11,
+      "xess": false,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Senua's Saga: Hellblade II": {
+      "base": {
+        "High": 41,
+        "Low": 70,
+        "Medium": 54,
+        "Ultra": 30
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 8,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Silent Hill 2": {
+      "base": {
+        "High": 42,
+        "Low": 72,
+        "Medium": 55,
+        "Ultra": 31
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 8,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Sons of the Forest": {
+      "base": {
+        "High": 66,
+        "Low": 105,
+        "Medium": 84,
+        "Ultra": 50
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 10,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Stalker 2: Heart of Chornobyl": {
+      "base": {
+        "High": 33,
+        "Low": 58,
+        "Medium": 44,
+        "Ultra": 24
+      },
+      "confidence": "Low",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 8,
+      "xess": true,
+      "rt": false,
+      "source_quality": "Low",
+      "variance": "High",
+      "last_updated": "2026-05-04"
+    },
+    "Star Wars Jedi: Survivor": {
+      "base": {
+        "Low": 68,
+        "Medium": 52,
+        "High": 40,
+        "Ultra": 30
+      },
+      "confidence": "Medium",
+      "samples": 10,
+      "fsr": true,
+      "xess": false,
+      "dlss": true,
+      "fg": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Starfield": {
+      "base": {
+        "High": 40,
+        "Low": 62,
+        "Medium": 50,
+        "Ultra": 32
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Street Fighter 6": {
+      "base": {
+        "High": 105,
+        "Low": 150,
+        "Medium": 125,
+        "Ultra": 88
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 12,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Tekken 8": {
+      "base": {
+        "Low": 120,
+        "Medium": 94,
+        "High": 72,
+        "Ultra": 55
+      },
+      "confidence": "High",
+      "samples": 11,
+      "fsr": true,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "The Finals": {
+      "base": {
+        "Low": 148,
+        "Medium": 116,
+        "High": 90,
+        "Ultra": 68
+      },
+      "confidence": "High",
+      "samples": 13,
+      "fsr": true,
+      "xess": true,
+      "dlss": true,
+      "fg": true,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "The Last of Us Part I": {
+      "base": {
+        "High": 44,
+        "Low": 70,
+        "Medium": 56,
+        "Ultra": 34
+      },
+      "confidence": "Medium",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 16,
+      "xess": false,
+      "rt": true,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "The Witcher 3 Next-Gen": {
+      "base": {
+        "High": 70,
+        "Low": 112,
+        "Medium": 90,
+        "Ultra": 52
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": true,
+      "fsr": true,
+      "samples": 16,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Valorant": {
+      "base": {
+        "High": 235,
+        "Low": 300,
+        "Medium": 270,
+        "Ultra": 205
+      },
+      "confidence": "High",
+      "dlss": false,
+      "fg": false,
+      "fsr": false,
+      "samples": 18,
+      "xess": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Warhammer 40,000: Space Marine 2": {
+      "base": {
+        "Low": 82,
+        "Medium": 64,
+        "High": 50,
+        "Ultra": 38
+      },
+      "confidence": "Medium",
+      "samples": 9,
+      "fsr": true,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Watch Dogs: Legion": {
+      "base": {
+        "High": 66,
+        "Low": 105,
+        "Medium": 84,
+        "Ultra": 50
+      },
+      "confidence": "High",
+      "dlss": true,
+      "fg": false,
+      "fsr": true,
+      "samples": 12,
+      "xess": false,
+      "rt": true,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "World of Warcraft: The War Within": {
+      "base": {
+        "High": 95,
+        "Low": 145,
+        "Medium": 118,
+        "Ultra": 74
+      },
+      "confidence": "Medium",
+      "dlss": false,
+      "fg": false,
+      "fsr": true,
+      "samples": 10,
+      "xess": false,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    },
+    "Age of Empires IV": {
+      "base": {
+        "Low": 165,
+        "Medium": 132,
+        "High": 105,
+        "Ultra": 82
+      },
+      "confidence": "High",
+      "samples": 12,
+      "fsr": false,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Control Ultimate Edition": {
+      "base": {
+        "Low": 118,
+        "Medium": 92,
+        "High": 72,
+        "Ultra": 55
+      },
+      "confidence": "High",
+      "samples": 15,
+      "fsr": false,
+      "xess": false,
+      "dlss": true,
+      "fg": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Dead Island 2": {
+      "base": {
+        "Low": 125,
+        "Medium": 98,
+        "High": 78,
+        "Ultra": 60
+      },
+      "confidence": "High",
+      "samples": 14,
+      "fsr": true,
+      "xess": false,
+      "dlss": false,
+      "fg": false,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "Horizon Forbidden West Complete Edition": {
+      "base": {
+        "Low": 88,
+        "Medium": 68,
+        "High": 52,
+        "Ultra": 40
+      },
+      "confidence": "High",
+      "samples": 14,
+      "fsr": true,
+      "xess": true,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "High",
+      "variance": "Low",
+      "last_updated": "2026-05-04"
+    },
+    "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
+      "base": {
+        "Low": 54,
+        "Medium": 40,
+        "High": 30,
+        "Ultra": 22
+      },
+      "confidence": "Medium",
+      "samples": 10,
+      "fsr": true,
+      "xess": true,
+      "dlss": true,
+      "fg": true,
+      "rt": false,
+      "source_quality": "Medium",
+      "variance": "Medium",
+      "last_updated": "2026-05-04"
+    }
+  }
+}
