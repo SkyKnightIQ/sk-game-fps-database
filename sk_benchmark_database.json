@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.04-initial-online-db",
-  "saved_at": "2026-05-04T00:00:00",
+  "version": "sk-upgrade-advisor-2026-05-05",
+  "saved_at": "2026-05-04T23:02:57",
   "gpus": {
     "RTX 5090": {
       "factor": 5.8,
@@ -2516,5 +2516,3977 @@
       "variance": "Medium",
       "last_updated": "2026-05-04"
     }
+  },
+  "motherboards": {
+    "ASRock A520M-HDV": {
+      "brand": "ASRock",
+      "socket": "AM4",
+      "chipset": "A520",
+      "ram_type": "DDR4",
+      "bios": "May need BIOS update for Ryzen 5000."
+    },
+    "ASRock B450M Steel Legend": {
+      "brand": "ASRock",
+      "socket": "AM4",
+      "chipset": "B450",
+      "ram_type": "DDR4",
+      "bios": "BIOS update may be required for Ryzen 5000/X3D."
+    },
+    "ASRock B550 Pro4": {
+      "brand": "ASRock",
+      "socket": "AM4",
+      "chipset": "B550",
+      "ram_type": "DDR4",
+      "bios": "Usually Ryzen 5000 ready; verify BIOS."
+    },
+    "ASRock X570 Taichi": {
+      "brand": "ASRock",
+      "socket": "AM4",
+      "chipset": "X570",
+      "ram_type": "DDR4",
+      "bios": "Strong AM4 board; verify BIOS for X3D."
+    },
+    "ASRock B650M Pro RS": {
+      "brand": "ASRock",
+      "socket": "AM5",
+      "chipset": "B650",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "ASRock X670E Steel Legend": {
+      "brand": "ASRock",
+      "socket": "AM5",
+      "chipset": "X670E",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "ASUS Prime A520M-K": {
+      "brand": "ASUS",
+      "socket": "AM4",
+      "chipset": "A520",
+      "ram_type": "DDR4",
+      "bios": "May need BIOS update for Ryzen 5000."
+    },
+    "ASUS Prime B450M-A II": {
+      "brand": "ASUS",
+      "socket": "AM4",
+      "chipset": "B450",
+      "ram_type": "DDR4",
+      "bios": "BIOS update may be required for Ryzen 5000/X3D."
+    },
+    "ASUS TUF Gaming B450-Plus II": {
+      "brand": "ASUS",
+      "socket": "AM4",
+      "chipset": "B450",
+      "ram_type": "DDR4",
+      "bios": "BIOS update may be required for Ryzen 5000/X3D."
+    },
+    "ASUS ROG Strix B550-F Gaming": {
+      "brand": "ASUS",
+      "socket": "AM4",
+      "chipset": "B550",
+      "ram_type": "DDR4",
+      "bios": "Usually Ryzen 5000 ready; verify BIOS."
+    },
+    "ASUS TUF Gaming X570-Plus": {
+      "brand": "ASUS",
+      "socket": "AM4",
+      "chipset": "X570",
+      "ram_type": "DDR4",
+      "bios": "Strong AM4 board; verify BIOS for X3D."
+    },
+    "ASUS Prime B650-Plus": {
+      "brand": "ASUS",
+      "socket": "AM5",
+      "chipset": "B650",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "ASUS TUF Gaming B650-Plus WiFi": {
+      "brand": "ASUS",
+      "socket": "AM5",
+      "chipset": "B650",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "ASUS ROG Strix X670E-E Gaming": {
+      "brand": "ASUS",
+      "socket": "AM5",
+      "chipset": "X670E",
+      "ram_type": "DDR5",
+      "bios": "High-end AM5 DDR5 platform."
+    },
+    "Biostar B450MH": {
+      "brand": "Biostar",
+      "socket": "AM4",
+      "chipset": "B450",
+      "ram_type": "DDR4",
+      "bios": "BIOS update may be required for Ryzen 5000."
+    },
+    "Gigabyte A520M S2H": {
+      "brand": "Gigabyte",
+      "socket": "AM4",
+      "chipset": "A520",
+      "ram_type": "DDR4",
+      "bios": "May need BIOS update for Ryzen 5000."
+    },
+    "Gigabyte B450M DS3H": {
+      "brand": "Gigabyte",
+      "socket": "AM4",
+      "chipset": "B450",
+      "ram_type": "DDR4",
+      "bios": "BIOS update may be required for Ryzen 5000/X3D."
+    },
+    "Gigabyte B550 Aorus Elite V2": {
+      "brand": "Gigabyte",
+      "socket": "AM4",
+      "chipset": "B550",
+      "ram_type": "DDR4",
+      "bios": "Usually Ryzen 5000 ready; verify BIOS."
+    },
+    "Gigabyte X570 Aorus Elite": {
+      "brand": "Gigabyte",
+      "socket": "AM4",
+      "chipset": "X570",
+      "ram_type": "DDR4",
+      "bios": "Strong AM4 board; verify BIOS for X3D."
+    },
+    "Gigabyte B650 Aorus Elite AX": {
+      "brand": "Gigabyte",
+      "socket": "AM5",
+      "chipset": "B650",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "Gigabyte X670E Aorus Master": {
+      "brand": "Gigabyte",
+      "socket": "AM5",
+      "chipset": "X670E",
+      "ram_type": "DDR5",
+      "bios": "High-end AM5 DDR5 platform."
+    },
+    "MSI A520M-A Pro": {
+      "brand": "MSI",
+      "socket": "AM4",
+      "chipset": "A520",
+      "ram_type": "DDR4",
+      "bios": "May need BIOS update for Ryzen 5000."
+    },
+    "MSI B450 Tomahawk Max": {
+      "brand": "MSI",
+      "socket": "AM4",
+      "chipset": "B450",
+      "ram_type": "DDR4",
+      "bios": "BIOS update may be required for Ryzen 5000/X3D."
+    },
+    "MSI B550-A Pro": {
+      "brand": "MSI",
+      "socket": "AM4",
+      "chipset": "B550",
+      "ram_type": "DDR4",
+      "bios": "Usually Ryzen 5000 ready; verify BIOS."
+    },
+    "MSI MAG B550 Tomahawk": {
+      "brand": "MSI",
+      "socket": "AM4",
+      "chipset": "B550",
+      "ram_type": "DDR4",
+      "bios": "Usually Ryzen 5000 ready; verify BIOS."
+    },
+    "MSI X570-A Pro": {
+      "brand": "MSI",
+      "socket": "AM4",
+      "chipset": "X570",
+      "ram_type": "DDR4",
+      "bios": "Strong AM4 board; verify BIOS for X3D."
+    },
+    "MSI Pro B650-P WiFi": {
+      "brand": "MSI",
+      "socket": "AM5",
+      "chipset": "B650",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "MSI MAG B650 Tomahawk WiFi": {
+      "brand": "MSI",
+      "socket": "AM5",
+      "chipset": "B650",
+      "ram_type": "DDR5",
+      "bios": "AM5 DDR5 platform."
+    },
+    "MSI MPG X670E Carbon WiFi": {
+      "brand": "MSI",
+      "socket": "AM5",
+      "chipset": "X670E",
+      "ram_type": "DDR5",
+      "bios": "High-end AM5 DDR5 platform."
+    },
+    "ASRock H610M-HDV": {
+      "brand": "ASRock",
+      "socket": "LGA1700",
+      "chipset": "H610",
+      "ram_type": "DDR4",
+      "bios": "Entry LGA1700 DDR4 board."
+    },
+    "ASRock B660M Pro RS": {
+      "brand": "ASRock",
+      "socket": "LGA1700",
+      "chipset": "B660",
+      "ram_type": "DDR4",
+      "bios": "May require BIOS update for 13th/14th gen."
+    },
+    "ASRock B760M Pro RS/D4": {
+      "brand": "ASRock",
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "ram_type": "DDR4",
+      "bios": "Modern LGA1700 DDR4 board."
+    },
+    "ASRock Z790 Steel Legend WiFi": {
+      "brand": "ASRock",
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "ram_type": "DDR5",
+      "bios": "High-end LGA1700 DDR5 board."
+    },
+    "ASUS Prime H610M-K D4": {
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "chipset": "H610",
+      "ram_type": "DDR4",
+      "bios": "Entry LGA1700 DDR4 board."
+    },
+    "ASUS Prime B660-Plus D4": {
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "chipset": "B660",
+      "ram_type": "DDR4",
+      "bios": "May require BIOS update for 13th/14th gen."
+    },
+    "ASUS TUF Gaming B760-Plus WiFi D4": {
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "ram_type": "DDR4",
+      "bios": "Modern LGA1700 DDR4 board."
+    },
+    "ASUS ROG Strix Z790-E Gaming WiFi": {
+      "brand": "ASUS",
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "ram_type": "DDR5",
+      "bios": "High-end LGA1700 DDR5 board."
+    },
+    "Gigabyte H610M S2H DDR4": {
+      "brand": "Gigabyte",
+      "socket": "LGA1700",
+      "chipset": "H610",
+      "ram_type": "DDR4",
+      "bios": "Entry LGA1700 DDR4 board."
+    },
+    "Gigabyte B660M DS3H AX DDR4": {
+      "brand": "Gigabyte",
+      "socket": "LGA1700",
+      "chipset": "B660",
+      "ram_type": "DDR4",
+      "bios": "May require BIOS update for 13th/14th gen."
+    },
+    "Gigabyte B760 Gaming X AX DDR4": {
+      "brand": "Gigabyte",
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "ram_type": "DDR4",
+      "bios": "Modern LGA1700 DDR4 board."
+    },
+    "Gigabyte Z790 Aorus Elite AX": {
+      "brand": "Gigabyte",
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "ram_type": "DDR5",
+      "bios": "High-end LGA1700 DDR5 board."
+    },
+    "MSI Pro H610M-G DDR4": {
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "chipset": "H610",
+      "ram_type": "DDR4",
+      "bios": "Entry LGA1700 DDR4 board."
+    },
+    "MSI Pro B660M-A DDR4": {
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "chipset": "B660",
+      "ram_type": "DDR4",
+      "bios": "May require BIOS update for 13th/14th gen."
+    },
+    "MSI MAG B760 Tomahawk WiFi DDR4": {
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "ram_type": "DDR4",
+      "bios": "Modern LGA1700 DDR4 board."
+    },
+    "MSI MPG Z790 Edge WiFi": {
+      "brand": "MSI",
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "ram_type": "DDR5",
+      "bios": "High-end LGA1700 DDR5 board."
+    },
+    "ASUS Prime Z890-P WiFi": {
+      "brand": "ASUS",
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "ram_type": "DDR5",
+      "bios": "Intel Core Ultra desktop platform."
+    },
+    "Gigabyte Z890 Aorus Elite WiFi7": {
+      "brand": "Gigabyte",
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "ram_type": "DDR5",
+      "bios": "Intel Core Ultra desktop platform."
+    },
+    "MSI MAG Z890 Tomahawk WiFi": {
+      "brand": "MSI",
+      "socket": "LGA1851",
+      "chipset": "Z890",
+      "ram_type": "DDR5",
+      "bios": "Intel Core Ultra desktop platform."
+    }
+  },
+  "cpu_meta": {
+    "Ryzen 3 1200": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 3 3100": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 3 3300X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 1600": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 2600": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 2600X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "Ryzen 5 3600": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 3600X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "Ryzen 7 3700X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 7 3800X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 105
+    },
+    "Ryzen 5 4500": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 4600G": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 5500": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 5600G": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 5600": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 5600X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 7 5700G": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 7 5700X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 7 5700X3D": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 105
+    },
+    "Ryzen 7 5800X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 105
+    },
+    "Ryzen 7 5800X3D": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 105
+    },
+    "Ryzen 9 5900X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 105
+    },
+    "Ryzen 9 5950X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 105
+    },
+    "Ryzen 5 7500F": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 65
+    },
+    "Ryzen 5 7600": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 65
+    },
+    "Ryzen 5 7600X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 105
+    },
+    "Ryzen 7 7700": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 65
+    },
+    "Ryzen 7 7700X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 105
+    },
+    "Ryzen 7 7800X3D": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 120
+    },
+    "Ryzen 9 7900X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 170
+    },
+    "Ryzen 9 7950X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 170
+    },
+    "Ryzen 9 7950X3D": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 120
+    },
+    "Ryzen 5 9600X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 65
+    },
+    "Ryzen 7 9700X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 65
+    },
+    "Ryzen 7 9800X3D": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 120
+    },
+    "Ryzen 9 9900X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 120
+    },
+    "Ryzen 9 9950X": {
+      "socket": "AM5",
+      "ram_type": "DDR5",
+      "tdp": 170
+    },
+    "Core Ultra 9 285K": {
+      "socket": "LGA1851",
+      "ram_type": "DDR5",
+      "tdp": 125
+    },
+    "Core Ultra 7 265K": {
+      "socket": "LGA1851",
+      "ram_type": "DDR5",
+      "tdp": 125
+    },
+    "Core Ultra 5 245K": {
+      "socket": "LGA1851",
+      "ram_type": "DDR5",
+      "tdp": 125
+    },
+    "i9-14900K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i7-14700K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i5-14600K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i5-14400F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i9-13900K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i7-13700K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i5-13600K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i5-13400F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i3-13100F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i9-12900K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i7-12700K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i5-12600K": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 125
+    },
+    "i5-12400F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i3-12100F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i9-11900K": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 125
+    },
+    "i7-11700K": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 125
+    },
+    "i5-11600K": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 125
+    },
+    "i5-11400F": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i9-10900K": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 125
+    },
+    "i7-10700K": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 125
+    },
+    "i5-10600K": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 125
+    },
+    "i5-10400F": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i9-9900K": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i7-9700K": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i5-9600K": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i5-9400F": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i7-8700K": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i5-8400": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i7-7700K": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i5-7600K": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i7-4790K": {
+      "socket": "Unknown",
+      "ram_type": "Unknown",
+      "tdp": 65
+    },
+    "i5-6500": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i5-7400": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i5-7500": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i7-6700K": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i7-7700": {
+      "socket": "LGA1151",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i3-10100F": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i5-10400": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i3-12100": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i5-12400": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i5-12600KF": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i5-13400": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i5-13500": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i7-13700F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i9-13900KF": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i5-14500": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i7-14700F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i9-14900KF": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "Ryzen 5 5500GT": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 7 5700": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 5 8400F": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "Ryzen 7 8700F": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i3-10300": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i3-14100F": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i5-8500": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i5-9400": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i5-10500": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i5-11400": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i7-8700": {
+      "socket": "LGA1151v2",
+      "ram_type": "DDR4",
+      "tdp": 95
+    },
+    "i7-10700": {
+      "socket": "LGA1200",
+      "ram_type": "DDR4",
+      "tdp": 65
+    },
+    "i7-12700": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i7-13700": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i7-14700": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "i9-12900": {
+      "socket": "LGA1700",
+      "ram_type": "DDR4/DDR5",
+      "tdp": 65
+    },
+    "Ryzen 7 2700X": {
+      "socket": "AM4",
+      "ram_type": "DDR4",
+      "tdp": 65
+    }
+  },
+  "gpu_power": {
+    "RTX 5090": 1150,
+    "RTX 5080": 970,
+    "RTX 5070 Ti": 797,
+    "RTX 5070": 715,
+    "RTX 4090": 850,
+    "RTX 4080 Super": 842,
+    "RTX 4080": 750,
+    "RTX 4070 Ti Super": 737,
+    "RTX 4070 Ti": 700,
+    "RTX 4070 Super": 647,
+    "RTX 4070": 650,
+    "RTX 4060 Ti 16GB": 508,
+    "RTX 4060 Ti 8GB": 500,
+    "RTX 4060": 550,
+    "RTX 3090 Ti": 722,
+    "RTX 3090": 692,
+    "RTX 3080 Ti": 662,
+    "RTX 3080 12GB": 640,
+    "RTX 3080 10GB": 625,
+    "RTX 3070 Ti": 538,
+    "RTX 3070": 512,
+    "RTX 3060 Ti": 484,
+    "RTX 3060 12GB": 430,
+    "RTX 3060 8GB": 418,
+    "RTX 3050 8GB": 379,
+    "RTX 3050 6GB": 361,
+    "RTX 2080 Ti": 512,
+    "RTX 2080 Super": 472,
+    "RTX 2070 Super": 430,
+    "RTX 2070": 415,
+    "RTX 2060 Super": 409,
+    "RTX 2060 6GB": 392,
+    "GTX 1660 Ti": 380,
+    "GTX 1660 Super": 376,
+    "GTX 1660": 367,
+    "GTX 1080 Ti": 437,
+    "GTX 1080": 500,
+    "GTX 1070 Ti": 397,
+    "GTX 1070": 382,
+    "GTX 1060 6GB": 355,
+    "GTX 1050 Ti": 328,
+    "GTX 1050 2GB": 317,
+    "RX 9070 XT": 737,
+    "RX 9070": 685,
+    "RX 7900 XTX": 800,
+    "RX 7900 XT": 707,
+    "RX 7900 GRE": 632,
+    "RX 7800 XT": 700,
+    "RX 7700 XT": 565,
+    "RX 7600 XT": 466,
+    "RX 7600": 452,
+    "RX 6950 XT": 662,
+    "RX 6900 XT": 632,
+    "RX 6800 XT": 595,
+    "RX 6800": 547,
+    "RX 6750 XT": 520,
+    "RX 6700 XT": 505,
+    "RX 6650 XT": 448,
+    "RX 6600 XT": 439,
+    "RX 6600": 450,
+    "RX 6500 XT": 352,
+    "RX 5700 XT": 427,
+    "RX 5600 XT": 388,
+    "RX 580 8GB": 344,
+    "RX 570 4GB": 334,
+    "Intel Arc B580": 475,
+    "Intel Arc A770 16GB": 457,
+    "Intel Arc A750": 433,
+    "Intel Arc A580": 400,
+    "GT 1030 GDDR5": 300,
+    "GTX 750 Ti": 302,
+    "GTX 950": 313,
+    "GTX 960 4GB": 316,
+    "GTX 970": 331,
+    "GTX 980": 346,
+    "GTX 980 Ti": 352,
+    "GTX 1650": 341,
+    "GTX 1650 Super": 355,
+    "RTX 2060 12GB": 400,
+    "RTX 3060 Laptop GPU": 403,
+    "RTX 4050 Laptop GPU": 415,
+    "RTX 4060 Laptop GPU": 442,
+    "RTX 4070 Laptop GPU": 497,
+    "RTX 4080 Laptop GPU": 632,
+    "RTX 4090 Laptop GPU": 692,
+    "RX 550 4GB": 300,
+    "RX 560 4GB": 310,
+    "RX 470 4GB": 331,
+    "RX 480 8GB": 340,
+    "RX 590 8GB": 350,
+    "RX Vega 56": 373,
+    "RX Vega 64": 385,
+    "RX 5500 XT 8GB": 367,
+    "RX 6400": 334,
+    "RX 6700 10GB": 475,
+    "RX 6750 GRE 12GB": 499,
+    "Intel Arc A380": 343,
+    "RTX 3060 Laptop": 397,
+    "RTX 3070 Laptop": 457,
+    "RTX 4050 Laptop": 403,
+    "RTX 4060 Laptop": 437,
+    "RTX 4070 Laptop": 478,
+    "RX 5700": 409,
+    "RX 6700": 469,
+    "RX 7600M XT": 437,
+    "RX 7800M XT": 542,
+    "Intel Arc B570": 437
+  },
+  "prices": {
+    "cpus": {
+      "Ryzen 7 9800X3D": {
+        "avg": 206,
+        "min": 177,
+        "max": 236,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 9950X": {
+        "avg": 200,
+        "min": 172,
+        "max": 229,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 9900X": {
+        "avg": 196,
+        "min": 168,
+        "max": 225,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 9700X": {
+        "avg": 191,
+        "min": 164,
+        "max": 219,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 9600X": {
+        "avg": 186,
+        "min": 159,
+        "max": 213,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 7950X3D": {
+        "avg": 203,
+        "min": 174,
+        "max": 233,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 7950X": {
+        "avg": 194,
+        "min": 166,
+        "max": 223,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 7900X": {
+        "avg": 188,
+        "min": 161,
+        "max": 216,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 7800X3D": {
+        "avg": 380,
+        "min": 326,
+        "max": 436,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 7700X": {
+        "avg": 181,
+        "min": 155,
+        "max": 208,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 7700": {
+        "avg": 177,
+        "min": 152,
+        "max": 203,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 7600X": {
+        "avg": 178,
+        "min": 153,
+        "max": 204,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 7600": {
+        "avg": 195,
+        "min": 167,
+        "max": 224,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 5800X3D": {
+        "avg": 310,
+        "min": 266,
+        "max": 356,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 5950X": {
+        "avg": 168,
+        "min": 144,
+        "max": 193,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 9 5900X": {
+        "avg": 165,
+        "min": 141,
+        "max": 189,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 5800X": {
+        "avg": 158,
+        "min": 135,
+        "max": 181,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 5700X3D": {
+        "avg": 210,
+        "min": 180,
+        "max": 241,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 5700X": {
+        "avg": 170,
+        "min": 146,
+        "max": 195,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 5600X": {
+        "avg": 135,
+        "min": 116,
+        "max": 155,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 5600": {
+        "avg": 115,
+        "min": 98,
+        "max": 132,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 5500": {
+        "avg": 136,
+        "min": 116,
+        "max": 156,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 3800X": {
+        "avg": 142,
+        "min": 122,
+        "max": 163,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 3700X": {
+        "avg": 139,
+        "min": 119,
+        "max": 159,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 3600X": {
+        "avg": 136,
+        "min": 116,
+        "max": 156,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 3600": {
+        "avg": 133,
+        "min": 114,
+        "max": 152,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 2600X": {
+        "avg": 116,
+        "min": 99,
+        "max": 133,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 2600": {
+        "avg": 113,
+        "min": 97,
+        "max": 129,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Core Ultra 9 285K": {
+        "avg": 203,
+        "min": 174,
+        "max": 233,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Core Ultra 7 265K": {
+        "avg": 194,
+        "min": 166,
+        "max": 223,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Core Ultra 5 245K": {
+        "avg": 181,
+        "min": 155,
+        "max": 208,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-14900K": {
+        "avg": 206,
+        "min": 177,
+        "max": 236,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-14700K": {
+        "avg": 197,
+        "min": 169,
+        "max": 226,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-14600K": {
+        "avg": 186,
+        "min": 159,
+        "max": 213,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-14400F": {
+        "avg": 167,
+        "min": 143,
+        "max": 192,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-13900K": {
+        "avg": 202,
+        "min": 173,
+        "max": 232,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-13700K": {
+        "avg": 330,
+        "min": 283,
+        "max": 379,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-13600K": {
+        "avg": 260,
+        "min": 223,
+        "max": 299,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-13400F": {
+        "avg": 190,
+        "min": 163,
+        "max": 218,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i3-13100F": {
+        "avg": 142,
+        "min": 122,
+        "max": 163,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-12900K": {
+        "avg": 186,
+        "min": 159,
+        "max": 213,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-12700K": {
+        "avg": 174,
+        "min": 149,
+        "max": 200,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-12600K": {
+        "avg": 167,
+        "min": 143,
+        "max": 192,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-12400F": {
+        "avg": 125,
+        "min": 107,
+        "max": 143,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i3-12100F": {
+        "avg": 133,
+        "min": 114,
+        "max": 152,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-11900K": {
+        "avg": 157,
+        "min": 135,
+        "max": 180,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-11700K": {
+        "avg": 151,
+        "min": 129,
+        "max": 173,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-11600K": {
+        "avg": 145,
+        "min": 124,
+        "max": 166,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-11400F": {
+        "avg": 138,
+        "min": 118,
+        "max": 158,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-10900K": {
+        "avg": 154,
+        "min": 132,
+        "max": 177,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-10700K": {
+        "avg": 149,
+        "min": 128,
+        "max": 171,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-10600K": {
+        "avg": 142,
+        "min": 122,
+        "max": 163,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-10400F": {
+        "avg": 130,
+        "min": 111,
+        "max": 149,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-9900K": {
+        "avg": 148,
+        "min": 127,
+        "max": 170,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-9700K": {
+        "avg": 144,
+        "min": 123,
+        "max": 165,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-9600K": {
+        "avg": 130,
+        "min": 111,
+        "max": 149,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-9400F": {
+        "avg": 122,
+        "min": 104,
+        "max": 140,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-8700K": {
+        "avg": 139,
+        "min": 119,
+        "max": 159,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-8400": {
+        "avg": 119,
+        "min": 102,
+        "max": 136,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-7700K": {
+        "avg": 119,
+        "min": 102,
+        "max": 136,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-7600K": {
+        "avg": 102,
+        "min": 87,
+        "max": 117,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-4790K": {
+        "avg": 87,
+        "min": 74,
+        "max": 100,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-6500": {
+        "avg": 81,
+        "min": 69,
+        "max": 93,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-7400": {
+        "avg": 93,
+        "min": 79,
+        "max": 106,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-7500": {
+        "avg": 94,
+        "min": 80,
+        "max": 108,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-6700K": {
+        "avg": 110,
+        "min": 94,
+        "max": 126,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-7700": {
+        "avg": 113,
+        "min": 97,
+        "max": 129,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i3-10100F": {
+        "avg": 113,
+        "min": 97,
+        "max": 129,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-10400": {
+        "avg": 129,
+        "min": 110,
+        "max": 148,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i3-12100": {
+        "avg": 132,
+        "min": 113,
+        "max": 151,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-12400": {
+        "avg": 154,
+        "min": 132,
+        "max": 177,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-12600KF": {
+        "avg": 168,
+        "min": 144,
+        "max": 193,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-13400": {
+        "avg": 164,
+        "min": 141,
+        "max": 188,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-13500": {
+        "avg": 171,
+        "min": 147,
+        "max": 196,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-13700F": {
+        "avg": 186,
+        "min": 159,
+        "max": 213,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-13900KF": {
+        "avg": 202,
+        "min": 173,
+        "max": 232,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-14500": {
+        "avg": 174,
+        "min": 149,
+        "max": 200,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-14700F": {
+        "avg": 191,
+        "min": 164,
+        "max": 219,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-14900KF": {
+        "avg": 206,
+        "min": 177,
+        "max": 236,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 3 3100": {
+        "avg": 110,
+        "min": 94,
+        "max": 126,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 3 3300X": {
+        "avg": 119,
+        "min": 102,
+        "max": 136,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 4500": {
+        "avg": 122,
+        "min": 104,
+        "max": 140,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 4600G": {
+        "avg": 125,
+        "min": 107,
+        "max": 143,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 5500GT": {
+        "avg": 135,
+        "min": 116,
+        "max": 155,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 5600G": {
+        "avg": 139,
+        "min": 119,
+        "max": 159,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 5700G": {
+        "avg": 145,
+        "min": 124,
+        "max": 166,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 5700": {
+        "avg": 149,
+        "min": 128,
+        "max": 171,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 7500F": {
+        "avg": 171,
+        "min": 147,
+        "max": 196,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 8400F": {
+        "avg": 167,
+        "min": 143,
+        "max": 192,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 8700F": {
+        "avg": 177,
+        "min": 152,
+        "max": 203,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i3-10300": {
+        "avg": 119,
+        "min": 102,
+        "max": 136,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i3-14100F": {
+        "avg": 148,
+        "min": 127,
+        "max": 170,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-8500": {
+        "avg": 116,
+        "min": 99,
+        "max": 133,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-9400": {
+        "avg": 120,
+        "min": 103,
+        "max": 138,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-10500": {
+        "avg": 133,
+        "min": 114,
+        "max": 152,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i5-11400": {
+        "avg": 138,
+        "min": 118,
+        "max": 158,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-8700": {
+        "avg": 133,
+        "min": 114,
+        "max": 152,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-10700": {
+        "avg": 145,
+        "min": 124,
+        "max": 166,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-12700": {
+        "avg": 171,
+        "min": 147,
+        "max": 196,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-13700": {
+        "avg": 188,
+        "min": 161,
+        "max": 216,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i7-14700": {
+        "avg": 194,
+        "min": 166,
+        "max": 223,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "i9-12900": {
+        "avg": 181,
+        "min": 155,
+        "max": 208,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 3 1200": {
+        "avg": 70,
+        "min": 60,
+        "max": 80,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 5 1600": {
+        "avg": 96,
+        "min": 82,
+        "max": 110,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Ryzen 7 2700X": {
+        "avg": 122,
+        "min": 104,
+        "max": 140,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      }
+    },
+    "gpus": {
+      "RTX 5090": {
+        "avg": 1508,
+        "min": 1296,
+        "max": 1734,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 5080": {
+        "avg": 1196,
+        "min": 1028,
+        "max": 1375,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 5070 Ti": {
+        "avg": 897,
+        "min": 771,
+        "max": 1031,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 5070": {
+        "avg": 754,
+        "min": 648,
+        "max": 867,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4090": {
+        "avg": 1700,
+        "min": 1462,
+        "max": 1954,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4080 Super": {
+        "avg": 975,
+        "min": 838,
+        "max": 1121,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4080": {
+        "avg": 923,
+        "min": 793,
+        "max": 1061,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4070 Ti Super": {
+        "avg": 793,
+        "min": 681,
+        "max": 911,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4070 Ti": {
+        "avg": 728,
+        "min": 626,
+        "max": 837,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4070 Super": {
+        "avg": 620,
+        "min": 533,
+        "max": 713,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4070": {
+        "avg": 560,
+        "min": 481,
+        "max": 644,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4060 Ti 16GB": {
+        "avg": 395,
+        "min": 339,
+        "max": 454,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4060 Ti 8GB": {
+        "avg": 382,
+        "min": 328,
+        "max": 439,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4060": {
+        "avg": 300,
+        "min": 258,
+        "max": 345,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3090 Ti": {
+        "avg": 767,
+        "min": 659,
+        "max": 882,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3090": {
+        "avg": 715,
+        "min": 614,
+        "max": 822,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3080 Ti": {
+        "avg": 663,
+        "min": 570,
+        "max": 762,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3080 12GB": {
+        "avg": 624,
+        "min": 536,
+        "max": 717,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3080 10GB": {
+        "avg": 598,
+        "min": 514,
+        "max": 687,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3070 Ti": {
+        "avg": 447,
+        "min": 384,
+        "max": 514,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3070": {
+        "avg": 403,
+        "min": 346,
+        "max": 463,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3060 Ti": {
+        "avg": 354,
+        "min": 304,
+        "max": 407,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3060 12GB": {
+        "avg": 270,
+        "min": 232,
+        "max": 310,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3060 8GB": {
+        "avg": 239,
+        "min": 205,
+        "max": 274,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3050 8GB": {
+        "avg": 172,
+        "min": 147,
+        "max": 197,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3050 6GB": {
+        "avg": 140,
+        "min": 120,
+        "max": 161,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2080 Ti": {
+        "avg": 403,
+        "min": 346,
+        "max": 463,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2080 Super": {
+        "avg": 333,
+        "min": 286,
+        "max": 382,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2070 Super": {
+        "avg": 260,
+        "min": 223,
+        "max": 299,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2070": {
+        "avg": 234,
+        "min": 201,
+        "max": 269,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2060 Super": {
+        "avg": 224,
+        "min": 192,
+        "max": 257,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2060 6GB": {
+        "avg": 195,
+        "min": 167,
+        "max": 224,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1660 Ti": {
+        "avg": 174,
+        "min": 149,
+        "max": 200,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1660 Super": {
+        "avg": 166,
+        "min": 142,
+        "max": 190,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1660": {
+        "avg": 151,
+        "min": 129,
+        "max": 173,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1080 Ti": {
+        "avg": 273,
+        "min": 234,
+        "max": 313,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1080": {
+        "avg": 224,
+        "min": 192,
+        "max": 257,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1070 Ti": {
+        "avg": 203,
+        "min": 174,
+        "max": 233,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1070": {
+        "avg": 177,
+        "min": 152,
+        "max": 203,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1060 6GB": {
+        "avg": 130,
+        "min": 111,
+        "max": 149,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1050 Ti": {
+        "avg": 83,
+        "min": 71,
+        "max": 95,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1050 2GB": {
+        "avg": 65,
+        "min": 55,
+        "max": 74,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 9070 XT": {
+        "avg": 793,
+        "min": 681,
+        "max": 911,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 9070": {
+        "avg": 702,
+        "min": 603,
+        "max": 807,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7900 XTX": {
+        "avg": 845,
+        "min": 726,
+        "max": 971,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7900 XT": {
+        "avg": 741,
+        "min": 637,
+        "max": 852,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7900 GRE": {
+        "avg": 611,
+        "min": 525,
+        "max": 702,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7800 XT": {
+        "avg": 500,
+        "min": 430,
+        "max": 575,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7700 XT": {
+        "avg": 494,
+        "min": 424,
+        "max": 568,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7600 XT": {
+        "avg": 322,
+        "min": 276,
+        "max": 370,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7600": {
+        "avg": 299,
+        "min": 257,
+        "max": 343,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6950 XT": {
+        "avg": 663,
+        "min": 570,
+        "max": 762,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6900 XT": {
+        "avg": 611,
+        "min": 525,
+        "max": 702,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6800 XT": {
+        "avg": 546,
+        "min": 469,
+        "max": 627,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6800": {
+        "avg": 463,
+        "min": 398,
+        "max": 532,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6750 XT": {
+        "avg": 416,
+        "min": 357,
+        "max": 478,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6700 XT": {
+        "avg": 290,
+        "min": 249,
+        "max": 333,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6650 XT": {
+        "avg": 291,
+        "min": 250,
+        "max": 334,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6600 XT": {
+        "avg": 276,
+        "min": 237,
+        "max": 317,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6600": {
+        "avg": 190,
+        "min": 163,
+        "max": 218,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6500 XT": {
+        "avg": 125,
+        "min": 107,
+        "max": 143,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 5700 XT": {
+        "avg": 255,
+        "min": 219,
+        "max": 293,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 5600 XT": {
+        "avg": 187,
+        "min": 160,
+        "max": 215,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 580 8GB": {
+        "avg": 112,
+        "min": 96,
+        "max": 128,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 570 4GB": {
+        "avg": 94,
+        "min": 80,
+        "max": 108,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Intel Arc B580": {
+        "avg": 338,
+        "min": 290,
+        "max": 388,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Intel Arc A770 16GB": {
+        "avg": 307,
+        "min": 264,
+        "max": 353,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Intel Arc A750": {
+        "avg": 265,
+        "min": 227,
+        "max": 304,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Intel Arc A580": {
+        "avg": 208,
+        "min": 178,
+        "max": 239,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GT 1030 GDDR5": {
+        "avg": 60,
+        "min": 51,
+        "max": 69,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 750 Ti": {
+        "avg": 60,
+        "min": 51,
+        "max": 69,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 950": {
+        "avg": 60,
+        "min": 51,
+        "max": 69,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 960 4GB": {
+        "avg": 62,
+        "min": 53,
+        "max": 71,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 970": {
+        "avg": 88,
+        "min": 75,
+        "max": 101,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 980": {
+        "avg": 114,
+        "min": 98,
+        "max": 131,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 980 Ti": {
+        "avg": 125,
+        "min": 107,
+        "max": 143,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1650": {
+        "avg": 107,
+        "min": 92,
+        "max": 123,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "GTX 1650 Super": {
+        "avg": 130,
+        "min": 111,
+        "max": 149,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 2060 12GB": {
+        "avg": 208,
+        "min": 178,
+        "max": 239,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3060 Laptop GPU": {
+        "avg": 213,
+        "min": 183,
+        "max": 244,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4050 Laptop GPU": {
+        "avg": 234,
+        "min": 201,
+        "max": 269,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4060 Laptop GPU": {
+        "avg": 281,
+        "min": 241,
+        "max": 323,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4070 Laptop GPU": {
+        "avg": 377,
+        "min": 324,
+        "max": 433,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4080 Laptop GPU": {
+        "avg": 611,
+        "min": 525,
+        "max": 702,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4090 Laptop GPU": {
+        "avg": 715,
+        "min": 614,
+        "max": 822,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 550 4GB": {
+        "avg": 60,
+        "min": 51,
+        "max": 69,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 560 4GB": {
+        "avg": 60,
+        "min": 51,
+        "max": 69,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 470 4GB": {
+        "avg": 88,
+        "min": 75,
+        "max": 101,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 480 8GB": {
+        "avg": 104,
+        "min": 89,
+        "max": 119,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 590 8GB": {
+        "avg": 122,
+        "min": 104,
+        "max": 140,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX Vega 56": {
+        "avg": 161,
+        "min": 138,
+        "max": 185,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX Vega 64": {
+        "avg": 182,
+        "min": 156,
+        "max": 209,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 5500 XT 8GB": {
+        "avg": 151,
+        "min": 129,
+        "max": 173,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6400": {
+        "avg": 94,
+        "min": 80,
+        "max": 108,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6700 10GB": {
+        "avg": 338,
+        "min": 290,
+        "max": 388,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6750 GRE 12GB": {
+        "avg": 380,
+        "min": 326,
+        "max": 436,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Intel Arc A380": {
+        "avg": 109,
+        "min": 93,
+        "max": 125,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3060 Laptop": {
+        "avg": 203,
+        "min": 174,
+        "max": 233,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 3070 Laptop": {
+        "avg": 307,
+        "min": 264,
+        "max": 353,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4050 Laptop": {
+        "avg": 213,
+        "min": 183,
+        "max": 244,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4060 Laptop": {
+        "avg": 273,
+        "min": 234,
+        "max": 313,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RTX 4070 Laptop": {
+        "avg": 343,
+        "min": 294,
+        "max": 394,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 5700": {
+        "avg": 224,
+        "min": 192,
+        "max": 257,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 6700": {
+        "avg": 328,
+        "min": 282,
+        "max": 377,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7600M XT": {
+        "avg": 273,
+        "min": 234,
+        "max": 313,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "RX 7800M XT": {
+        "avg": 455,
+        "min": 391,
+        "max": 523,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      },
+      "Intel Arc B570": {
+        "avg": 273,
+        "min": 234,
+        "max": 313,
+        "sources": [
+          "Amazon",
+          "Newegg",
+          "Best Buy",
+          "B&H"
+        ],
+        "source_count": 4,
+        "last_updated": "2026-05-04",
+        "confidence": "Medium"
+      }
+    }
+  },
+  "recommendation_rules": {
+    "price_market": "Global Average",
+    "sources": [
+      "Amazon",
+      "Newegg",
+      "Best Buy",
+      "B&H"
+    ],
+    "usage_options": [
+      "Gaming",
+      "Competitive FPS",
+      "AAA games",
+      "Streaming + Gaming",
+      "Productivity + Gaming"
+    ],
+    "budgets": [
+      "Any",
+      "Under $150",
+      "$150 - $250",
+      "$250 - $400",
+      "$400 - $600",
+      "$600+"
+    ]
   }
 }
